@@ -37,6 +37,6 @@ userSchema.virtual('friendCount').get(function () {
   return this.friends.length;
 });
 
-const User = model('Pizza', userSchema);
+const User = model('User', userSchema);
 
 module.exports = User;
