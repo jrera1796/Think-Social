@@ -3,7 +3,16 @@ const { Thought, User} = require('../models')
 
 //Figure out why this isn't turning green
 const thoughtController = {
-  
+  getAllThoughts(req, res) {
+    Thought.find({})
+    .select('-__v')
+    .sort({ _id: -1 })
+    .then(dbThoughtData => res.json(dbThoughtData))
+    .catch(err => {
+      console.log(err);
+      res.status(400).json(err);
+    });
+  },
   addThought({ params, body }, res) {
     console.log(body);
     Thought.create(body)
@@ -23,7 +32,6 @@ const thoughtController = {
       })
       .catch(err => res.json(err));
   },
-  // add reply
   addReaction({ params, body }, res) {
     Thought.findOneAndUpdate(
       { _id: params.thoughtId },
@@ -39,8 +47,6 @@ const thoughtController = {
       })
       .catch(err => res.json(err));
   },
-
-  // remove reply
   removeReaction({ params }, res) {
     Thought.findOneAndUpdate(
       { _id: params.thoughtId },
@@ -50,8 +56,6 @@ const thoughtController = {
       .then(dbUserData => res.json(dbUserData))
       .catch(err => res.json(err));
   },
-
-  // remove comment
   removeThought({ params }, res) {
     Thought.findOneAndDelete({ _id: params.thoughtId })
       .then(deletedThought => {
