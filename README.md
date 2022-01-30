@@ -6,7 +6,7 @@
 Think Social utilizes MongoDB to create a database that's dynamic and flexible to meet the needs of an ever expanding social networking site.
 
 ## Usage
-This repository demonstrates the back-end functions for creating, reading, updating, and deleting;
+This repository demonstrates the back-end functions for creating, reading, updating, and deleting
 
 - Users' associated Username and Email.
 - Users' associated Thoughts and Reactions.
