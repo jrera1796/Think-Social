@@ -3,7 +3,7 @@
 # Think-Social
 
 ## Description
-Think Social utilizes MongoDB to creates a database that's dynamic and flexible to meet the needs of an ever expanding social networking site.
+Think Social utilizes MongoDB to create a database that's dynamic and flexible to meet the needs of an ever expanding social networking site.
 
 ## Usage
 This repository demonstrates the back-end functions for creating, reading, updating, and deleting;
@@ -24,7 +24,8 @@ This repository demonstrates the back-end functions for creating, reading, updat
 - npm i express mongoose
 
 ## Video Walkthrough
-
+https://watch.screencastify.com/v/XrLXUIuYiyoTnVZ4dXJi
+https://watch.screencastify.com/v/fJ8sduSrdVdtTisUk0V2
 
 ## Contribution
 Made by Jose R.
