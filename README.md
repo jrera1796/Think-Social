@@ -18,7 +18,7 @@ This repository demonstrates the back-end functions for creating, reading, updat
 * NodeJS, Express; Mongoose; 
 
 ## Installation
-#### An Installation of (MongoDB)](https://docs.mongodb.com/manual/installation/) is Required.
+#### An Installation of [MongoDB](https://docs.mongodb.com/manual/installation/) is Required.
 
 - npm init
 - npm i express mongoose
