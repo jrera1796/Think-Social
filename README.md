@@ -24,8 +24,10 @@ This repository demonstrates the back-end functions for creating, reading, updat
 - npm i express mongoose
 
 ## Video Walkthrough
-https://watch.screencastify.com/v/XrLXUIuYiyoTnVZ4dXJi
-https://watch.screencastify.com/v/fJ8sduSrdVdtTisUk0V2
+Users and Thoughts https://watch.screencastify.com/v/XrLXUIuYiyoTnVZ4dXJi
+Reactions https://watch.screencastify.com/v/fJ8sduSrdVdtTisUk0V2
+Removing Thoughts https://watch.screencastify.com/v/zJBjWWQ32SqiBD5XkrsX
+
 
 ## Contribution
 Made by Jose R.
